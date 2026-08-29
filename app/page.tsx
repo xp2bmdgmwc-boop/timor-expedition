@@ -361,15 +361,8 @@ export default function TimorHomePage() {
             </a>
           </div>
 
-          <div className="pt-12 border-t border-[#0E0E0C]/10 text-center">
-            <div className="text-[16px] font-medium text-[#0E0E0C]">
-              Валерий Латыпов. Архитектор визуального капитала.
-            </div>
-          </div>
-
-          <div className="mt-20 pt-8 border-t border-[#0E0E0C]/10 flex flex-wrap justify-between items-center text-[11px] tracking-[0.14em] uppercase text-[#6F6E66]">
-            <div>© 2026 ВАЛЕРИЙ ЛАТЫПОВ · АВТОРСКИЕ ЭКСПЕДИЦИИ</div>
-            <div>КОНФИДЕНЦИАЛЬНО · ТОЛЬКО ДЛЯ ЧАСТНЫХ ДОВЕРИТЕЛЕЙ</div>
+          <div className="mt-16 pt-8 border-t border-[#0E0E0C]/10 text-center text-[11px] tracking-[0.2em] uppercase text-[#6F6E66]">
+            © 2026 ВАЛЕРИЙ ЛАТЫПОВ · АВТОРСКИЕ ЭКСПЕДИЦИИ
           </div>
         </div>
       </footer>
