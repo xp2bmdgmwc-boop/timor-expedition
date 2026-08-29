@@ -318,8 +318,8 @@ export default function TimorHomePage() {
             Это не плата за маршрут — это инвестиция в ваш ключевой актив: точность управленческих решений. Закрытый персональный набор через короткое интервью лично с Валерием.
           </p>
 
-          <div className="p-6 sm:p-8 bg-[#C9501E]/10 border-l-4 border-[#C9501E]">
-            <h4 className="text-[11px] font-bold tracking-[0.24em] uppercase text-[#C9501E] mb-2">
+          <div className="p-8 sm:p-10 bg-[#C9501E]/5 border border-[#C9501E]/25">
+            <h4 className="text-[11px] font-bold tracking-[0.24em] uppercase text-[#C9501E] mb-2.5">
               Квалификационный критерий
             </h4>
             <p className="text-[14px] sm:text-[15px] text-[#2E2E2A] leading-[1.7]">
