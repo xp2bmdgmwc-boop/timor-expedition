@@ -369,6 +369,15 @@ export default function TimorHomePage() {
           </div>
 
           <div className="space-y-20 sm:space-y-32">
+            {/* Карта маршрута */}
+            <div className="relative w-full border border-[#0E0E0C]/15 shadow-md bg-[#FAFAF7] overflow-hidden">
+              <img
+                src="/images/timor_map_route.jpg"
+                alt={lang === 'ru' ? 'Карта маршрута экспедиции' : 'Expedition Route Map'}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+
             {/* Пункт 1: Океан */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-14 items-center">
               <div className="relative h-[260px] sm:h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md order-first md:order-last">
