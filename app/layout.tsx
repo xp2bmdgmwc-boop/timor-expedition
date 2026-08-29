@@ -1,22 +1,29 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Playfair_Display } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
 const inter = Inter({
   subsets: ["latin", "cyrillic"],
-  weight: ["300", "400", "500", "600", "700", "800"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-inter",
+  display: "swap"
+});
+
+const playfair = Playfair_Display({
+  subsets: ["latin", "cyrillic"],
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-serif",
   display: "swap"
 });
 
 export const metadata: Metadata = {
   title: "ВОСТОЧНЫЙ ТИМОР · ТОЧКА ОБНУЛЕНИЯ · Экспедиции Валерия Латыпова",
-  description: "Приватная авторская экспедиция в Восточный Тимор. Строго до 4 гостей. Архитектура безупречного комфорта и экзистенциальная перезагрузка для лидеров.",
+  description: "Приватная авторская экспедиция в Восточный Тимор. Камерный формат: 2-4 гостя. Архитектура безупречного комфорта и экзистенциальная перезагрузка для лидеров.",
   metadataBase: new URL("https://timor.valerylatypov.com"),
   openGraph: {
     title: "ВОСТОЧНЫЙ ТИМОР · ТОЧКА ОБНУЛЕНИЯ",
-    description: "Приватная авторская экспедиция в Восточный Тимор. Строго до 4 гостей.",
+    description: "Приватная авторская экспедиция в Восточный Тимор. Камерный формат: 2-4 гостя.",
     url: "https://timor.valerylatypov.com",
     siteName: "Валерий Латыпов · Экспедиции",
     locale: "ru_RU",
@@ -30,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${inter.variable} scroll-smooth`}>
+    <html lang="ru" className={`${inter.variable} ${playfair.variable} scroll-smooth`}>
       <head>
         {/* Гео-защита */}
         <script
