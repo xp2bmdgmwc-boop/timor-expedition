@@ -164,7 +164,7 @@ export default function TimorHomePage() {
             {/* Пункт 1: Океан */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
               <div>
-                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">01 / ОКЕАН</span>
+                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">ОКЕАН · МИГРАЦИЯ КИТОВ</span>
                 <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Океаническая бездна.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   Выход на скоростном катере в пролив глубиной 3000 метров. Наблюдение за карликовыми синими китами. Прямой контакт с природой, от которого замирает время.
@@ -182,7 +182,7 @@ export default function TimorHomePage() {
             {/* Пункт 2: Терапия пространством */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center md:[direction:rtl]">
               <div className="md:[direction:ltr]">
-                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">02 / САКРАЛЬНОЕ</span>
+                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">САКРАЛЬНЫЙ ОСТРОВ ЖАКО</span>
                 <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Терапия пространством.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   Священный необитаемый остров Жако. Дикие горные побережья. Вы попадаете в мир первозданной тишины, живущий по другим законам.
@@ -252,7 +252,7 @@ export default function TimorHomePage() {
             {/* Пункт 3: Полное отключение */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
               <div>
-                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">03 / БЕЗЗАБОТНОСТЬ</span>
+                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">ПЕРВОЗДАННАЯ ПРИРОДА · ПОЛНОЕ ОТКЛЮЧЕНИЕ</span>
                 <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Полное отключение.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   С момента прилета мы забираем на себя всё: от быта и безопасности до дипломатических доступов. Ваша единственная задача — выключить связь и позволить первозданному масштабу восстановить нервную систему.
