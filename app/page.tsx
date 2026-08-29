@@ -476,11 +476,11 @@ export default function TimorHomePage() {
       {/* Экран 4: Проводник */}
       <section id="guide" className="py-20 sm:py-32 md:py-44 px-5 sm:px-12 bg-[#FAFAF7] border-b border-[#0E0E0C]/10">
         <div className="max-w-[1060px] mx-auto grid grid-cols-1 md:grid-cols-[400px_1fr] gap-10 sm:gap-16 items-center">
-          <div className="relative h-[380px] sm:h-[520px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
+          <div className="relative h-[440px] sm:h-[520px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md overflow-hidden">
             <img
               src="/images/valery_latypov_portrait.jpg"
               alt={d.guide.name}
-              className="w-full h-full object-cover object-top"
+              className="w-full h-full object-cover object-center sm:object-[center_20%]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C]/80 via-transparent to-transparent" />
             <div className="absolute bottom-5 left-5 right-5 sm:bottom-6 sm:left-6 sm:right-6">
