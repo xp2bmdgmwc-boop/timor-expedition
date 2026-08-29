@@ -31,9 +31,12 @@ export default function TimorHomePage() {
           <img
             src="/images/timor_hero_main.jpg"
             alt="Атмосферный пейзаж Восточного Тимора"
-            className="w-full h-full object-cover opacity-40 filter contrast-105"
+            className="w-full h-full object-cover filter contrast-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/50 to-transparent z-10" />
+          {/* Темная маска и градиенты для идеального контраста белого текста */}
+          <div className="absolute inset-0 bg-[#0E0E0C]/40 z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/60 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-b from-[#0E0E0C]/60 via-transparent to-transparent z-10" />
         </div>
 
         <div className="relative z-20 max-w-[1060px] mx-auto text-left w-full">
@@ -299,9 +302,20 @@ export default function TimorHomePage() {
             <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8] mb-4 sm:mb-5">
               Он не гид. Художник, визионер, человек, говорящий на индонезийском языке. Общается со старейшинами напрямую и открывает двери, которых нет в путеводителях.
             </p>
-            <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
+            <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8] mb-8">
               Он понимает, что такое настоящая усталость от ответственности. Это разговор равного с равным — без необходимости что-либо объяснять.
             </p>
+            <div>
+              <a
+                href="https://valerylatypov.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center text-[10px] sm:text-[11px] font-bold tracking-[0.2em] uppercase text-[#0E0E0C] hover:text-[#C9501E] transition-colors border-b border-[#0E0E0C]/20 hover:border-[#C9501E] pb-1"
+              >
+                Смотреть полный визуальный капитал: valerylatypov.com
+                <svg className="w-3 h-3 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" /></svg>
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -369,8 +383,22 @@ export default function TimorHomePage() {
             </a>
           </div>
 
-          <div className="mt-12 sm:mt-16 pt-6 sm:pt-8 border-t border-[#0E0E0C]/10 text-center text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-[#6F6E66]">
-            © 2026 ВАЛЕРИЙ ЛАТЫПОВ · АВТОРСКИЕ ЭКСПЕДИЦИИ
+          <div className="mt-12 sm:mt-16 pt-8 sm:pt-10 border-t border-[#0E0E0C]/10 flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="text-[10px] sm:text-[11px] tracking-[0.2em] uppercase text-[#6F6E66]">
+              © 2026 ВАЛЕРИЙ ЛАТЫПОВ · АВТОРСКИЕ ЭКСПЕДИЦИИ
+            </div>
+            
+            <div className="flex items-center gap-6 text-[10px] sm:text-[11px] font-bold tracking-[0.2em] uppercase text-[#0E0E0C]">
+              <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:text-[#C9501E] transition-colors">LinkedIn</a>
+              <a href="https://t.me/valerylatypov" target="_blank" rel="noopener noreferrer" className="hover:text-[#C9501E] transition-colors">Telegram</a>
+              <a href={whatsappUrl} target="_blank" rel="noopener noreferrer" className="hover:text-[#C9501E] transition-colors">WhatsApp</a>
+            </div>
+            
+            <div className="flex items-center text-[10px] sm:text-[11px] font-bold tracking-[0.1em] uppercase">
+              <span className="text-[#0E0E0C]">RU</span>
+              <span className="mx-2 text-[#0E0E0C]/30">|</span>
+              <a href="#" className="text-[#6F6E66] hover:text-[#0E0E0C] transition-colors">EN</a>
+            </div>
           </div>
         </div>
       </footer>
