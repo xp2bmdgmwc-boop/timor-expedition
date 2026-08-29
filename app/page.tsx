@@ -268,7 +268,16 @@ export default function TimorHomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8 pt-10 sm:pt-14 mt-14 sm:mt-20 border-t border-white/15">
             <div>
               <span className="block text-[10px] sm:text-[11px] font-medium tracking-[0.24em] uppercase text-[#A6A59D]">{d.hero.locLabel}</span>
-              <span className="text-[15px] sm:text-[16px] font-medium text-white mt-1 sm:mt-1.5 block">{d.hero.locVal}</span>
+              <a 
+                href="https://www.google.com/maps/place/Timor-Leste" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                className="inline-flex items-center text-[15px] sm:text-[16px] font-medium text-white mt-1 sm:mt-1.5 hover:text-[#C9501E] transition-colors border-b border-white/20 hover:border-[#C9501E] pb-0.5"
+                title={lang === 'ru' ? 'Открыть в Google Maps' : 'Open in Google Maps'}
+              >
+                {d.hero.locVal}
+                <svg className="w-3 h-3 ml-1.5 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" /></svg>
+              </a>
             </div>
             <div>
               <span className="block text-[10px] sm:text-[11px] font-medium tracking-[0.24em] uppercase text-[#A6A59D]">{d.hero.fmtLabel}</span>
