@@ -123,6 +123,24 @@ export default function TimorHomePage() {
         </div>
       </section>
 
+      {/* Панорамная вставка: Пространство */}
+      <section className="relative w-full h-[440px] sm:h-[580px] md:h-[660px] overflow-hidden border-b border-[#0E0E0C]/10 bg-[#0E0E0C]">
+        <img
+          src="/images/timor_vast_space.jpg"
+          alt="Пространство и первозданный горизонт Восточного Тимора"
+          className="w-full h-full object-cover object-center"
+        />
+        {/* Текст про пространство сверху справа */}
+        <div className="absolute top-6 right-6 sm:top-12 sm:right-12 z-10 max-w-[320px] sm:max-w-[420px] text-right bg-[#FAFAF7]/90 backdrop-blur-md p-6 sm:p-8 border border-[#0E0E0C]/15 shadow-xl">
+          <span className="block text-[11px] font-bold tracking-[0.2em] uppercase text-[#C9501E] mb-2">
+            ПРОСТРАНСТВО БЕЗ ГРАНИЦ
+          </span>
+          <p className="text-[14px] sm:text-[16px] text-[#0E0E0C] font-medium leading-[1.6]">
+            Горизонт, где взгляд не упирается в чужие стены. Масштаб, возвращающий истинный размер вещам и освобождающий ум от фонового шума.
+          </p>
+        </div>
+      </section>
+
       {/* Экран 3: Опыт (Архитектура безупречного комфорта) */}
       <section id="experience" className="py-28 md:py-36 px-6 bg-[#F2F0EA] border-b border-[#0E0E0C]/10">
         <div className="max-w-[1040px] mx-auto">
