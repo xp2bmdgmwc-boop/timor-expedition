@@ -119,24 +119,29 @@ export default function TimorHomePage() {
         </div>
       </section>
 
-      {/* Панорамная вставка: Пространство без агрессивных рамок */}
-      <section className="relative w-full h-[500px] sm:h-[640px] md:h-[720px] overflow-hidden border-b border-[#0E0E0C]/10 bg-[#0E0E0C]">
-        <img
-          src="/images/timor_vast_space.jpg"
-          alt="Пространство и первозданный горизонт Восточного Тимора"
-          className="w-full h-full object-cover object-center"
-        />
-        {/* Элегантная полупрозрачная стеклянная карточка в правом верхнем углу */}
-        <div className="absolute top-8 right-6 sm:top-14 sm:right-14 z-10 max-w-[340px] sm:max-w-[440px] text-left bg-[#0E0E0C]/80 backdrop-blur-xl p-8 sm:p-10 border border-white/10 shadow-2xl text-[#FAFAF7]">
-          <span className="block text-[11px] font-semibold tracking-[0.28em] uppercase text-[#E29D7D] mb-3">
-            ПРОСТРАНСТВО БЕЗ ГРАНИЦ
-          </span>
-          <p className="font-serif text-[18px] sm:text-[21px] font-normal leading-[1.5] text-white/95 mb-3">
-            Горизонт, где взгляд не упирается в чужие стены.
-          </p>
-          <p className="text-[13px] sm:text-[14px] text-[#A6A59D] leading-[1.7] font-light">
-            Масштаб, возвращающий истинный размер вещам и освобождающий ум от операционного шума.
-          </p>
+      {/* Панорамная вставка: Пространство */}
+      <section className="border-b border-[#0E0E0C]/10 bg-[#FAFAF7]">
+        <div className="w-full h-[480px] sm:h-[640px] md:h-[760px] overflow-hidden bg-[#0E0E0C]">
+          <img
+            src="/images/timor_vast_space.jpg"
+            alt="Пространство и первозданный горизонт Восточного Тимора"
+            className="w-full h-full object-cover object-center"
+          />
+        </div>
+        <div className="max-w-[1060px] mx-auto px-6 sm:px-12 py-16 sm:py-20">
+          <div className="grid grid-cols-1 md:grid-cols-[280px_1fr] gap-8 md:gap-16 items-start">
+            <span className="block text-[11px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E]">
+              ПРОСТРАНСТВО БЕЗ ГРАНИЦ
+            </span>
+            <div>
+              <h3 className="font-serif text-[24px] sm:text-[32px] font-normal leading-[1.35] text-[#0E0E0C] mb-4">
+                Горизонт, где взгляд не упирается в чужие стены.
+              </h3>
+              <p className="text-[16px] sm:text-[18px] text-[#6F6E66] leading-[1.75] font-light max-w-[65ch]">
+                Масштаб, возвращающий истинный размер вещам и освобождающий ум от операционного шума.
+              </p>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -194,46 +199,52 @@ export default function TimorHomePage() {
 
             {/* Блок Наскальной Живописи и Сакрального Наследия */}
             <div className="p-8 sm:p-14 bg-[#FAFAF7] border border-[#0E0E0C]/15 shadow-sm">
-              <div className="max-w-[760px] mb-10">
-                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">40 000 ЛЕТ САДРАЛЬНОЙ ПАМЯТИ</span>
+              <div className="max-w-[760px] mb-12">
+                <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">40 000 ЛЕТ САКРАЛЬНОЙ ПАМЯТИ</span>
                 <h3 className="font-serif text-[26px] sm:text-[32px] font-normal text-[#0E0E0C] mb-4">Наскальная живопись и святилища Лулик.</h3>
                 <p className="text-[15px] sm:text-[16px] text-[#6F6E66] leading-[1.75]">
                   Древнейшие петроглифы региона, ритуальные камни и сакральные пещерные своды. Прямой диалог со старейшинами и доступ к местам силы, скрытым от туристических карт.
                 </p>
               </div>
 
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-                <div className="relative h-[300px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
-                  <img
-                    src="/images/timor_rock_art.jpg"
-                    alt="Наскальная живопись возрастом 40 000 лет"
-                    className="w-full h-full object-cover"
-                  />
-                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/80 text-white text-[10px] font-medium px-2.5 py-1.5 tracking-[0.14em] uppercase backdrop-blur-sm">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
+                <div>
+                  <div className="h-[300px] sm:h-[340px] border border-[#0E0E0C]/10 bg-[#E8E6DF] overflow-hidden">
+                    <img
+                      src="/images/timor_rock_art.jpg"
+                      alt="Наскальная живопись возрастом 40 000 лет"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-[11px] font-medium text-[#6F6E66] tracking-[0.2em] uppercase text-center mt-4">
                     Наскальные петроглифы
-                  </span>
+                  </p>
                 </div>
 
-                <div className="relative h-[300px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
-                  <img
-                    src="/images/timor_sacred_cave.jpg"
-                    alt="Сакральное пещерное святилище"
-                    className="w-full h-full object-cover"
-                  />
-                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/80 text-white text-[10px] font-medium px-2.5 py-1.5 tracking-[0.14em] uppercase backdrop-blur-sm">
+                <div>
+                  <div className="h-[300px] sm:h-[340px] border border-[#0E0E0C]/10 bg-[#E8E6DF] overflow-hidden">
+                    <img
+                      src="/images/timor_sacred_cave.jpg"
+                      alt="Сакральное пещерное святилище"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-[11px] font-medium text-[#6F6E66] tracking-[0.2em] uppercase text-center mt-4">
                     Святилище Лулик
-                  </span>
+                  </p>
                 </div>
 
-                <div className="relative h-[300px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
-                  <img
-                    src="/images/timor_sacred_stone.jpg"
-                    alt="Ритуальный артефакт"
-                    className="w-full h-full object-cover"
-                  />
-                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/80 text-white text-[10px] font-medium px-2.5 py-1.5 tracking-[0.14em] uppercase backdrop-blur-sm">
+                <div>
+                  <div className="h-[300px] sm:h-[340px] border border-[#0E0E0C]/10 bg-[#E8E6DF] overflow-hidden">
+                    <img
+                      src="/images/timor_sacred_stone.jpg"
+                      alt="Ритуальный артефакт"
+                      className="w-full h-full object-cover"
+                    />
+                  </div>
+                  <p className="text-[11px] font-medium text-[#6F6E66] tracking-[0.2em] uppercase text-center mt-4">
                     Сакральный камень
-                  </span>
+                  </p>
                 </div>
               </div>
             </div>
@@ -277,7 +288,7 @@ export default function TimorHomePage() {
             </div>
           </div>
 
-          <div>
+          <div className="flex flex-col justify-center">
             <span className="inline-block text-[11px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-6">
               03 / ПРОВОДНИК
             </span>
@@ -318,11 +329,11 @@ export default function TimorHomePage() {
             Это не плата за маршрут — это инвестиция в ваш ключевой актив: точность управленческих решений. Закрытый персональный набор через короткое интервью лично с Валерием.
           </p>
 
-          <div className="p-8 sm:p-10 bg-[#C9501E]/5 border border-[#C9501E]/25">
-            <h4 className="text-[11px] font-bold tracking-[0.24em] uppercase text-[#C9501E] mb-2.5">
+          <div className="p-8 sm:p-12 bg-transparent border border-[#C9501E]/40">
+            <h4 className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-3">
               Квалификационный критерий
             </h4>
-            <p className="text-[14px] sm:text-[15px] text-[#2E2E2A] leading-[1.7]">
+            <p className="text-[15px] sm:text-[16px] text-[#2E2E2A] leading-[1.75] font-light max-w-[65ch]">
               Мы отказываем при клинической депрессии: экспедиция создана для здоровых, но предельно уставших лидеров, готовых к полному отключению связи.
             </p>
           </div>
