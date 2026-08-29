@@ -186,8 +186,8 @@ export default function TimorHomePage() {
               </div>
               <div className="relative h-[380px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
                 <img
-                  src="/images/IMG_3120.jpg"
-                  alt="Первозданный масштаб Восточного Тимора"
+                  src="/images/IMG_2279.jpg"
+                  alt="Экспедиционный внедорожник на фоне горных хребтов Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
               </div>
