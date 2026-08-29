@@ -240,7 +240,7 @@ export default function TimorHomePage() {
           <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.3em] uppercase text-[#E29D7D] mb-4 sm:mb-6">
             {d.hero.format}
           </span>
-          <h1 className="font-serif text-[36px] sm:text-[72px] md:text-[92px] font-normal leading-[1.05] sm:leading-[1.02] tracking-[-0.02em] text-white mb-6 sm:mb-8">
+          <h1 className="font-serif text-[36px] sm:text-[72px] md:text-[92px] font-normal leading-[1.25] sm:leading-[1.2] tracking-[-0.02em] text-white mb-6 sm:mb-8">
             {d.hero.title1}<br />
             <span className="italic font-light">{d.hero.title2}</span>
           </h1>
@@ -300,7 +300,7 @@ export default function TimorHomePage() {
           <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-4 sm:mb-6">
             {d.point.tag}
           </span>
-          <h2 className="font-serif text-[30px] sm:text-[58px] font-normal tracking-[-0.02em] leading-[1.1] sm:leading-[1.08] text-[#0E0E0C] mb-6 sm:mb-8">
+          <h2 className="font-serif text-[30px] sm:text-[58px] font-normal tracking-[-0.02em] leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-6 sm:mb-8">
             {d.point.title}
           </h2>
           <p className="text-[18px] sm:text-[28px] text-[#2E2E2A] font-light leading-[1.5] tracking-[-0.015em] mb-6 sm:mb-8 max-w-[920px]">
@@ -342,7 +342,7 @@ export default function TimorHomePage() {
               {d.panorama.tag}
             </span>
             <div>
-              <h3 className="font-serif text-[22px] sm:text-[32px] font-normal leading-[1.35] text-[#0E0E0C] mb-3 sm:mb-4">
+              <h3 className="font-serif text-[22px] sm:text-[32px] font-normal leading-[1.35] sm:leading-[1.2] text-[#0E0E0C] mb-3 sm:mb-4">
                 {d.panorama.title}
               </h3>
               <p className="text-[15px] sm:text-[18px] text-[#6F6E66] leading-[1.75] font-light max-w-[65ch]">
@@ -360,7 +360,7 @@ export default function TimorHomePage() {
             <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-4 sm:mb-6">
               {d.exp.tag}
             </span>
-            <h2 className="font-serif text-[30px] sm:text-[58px] font-normal tracking-[-0.02em] leading-[1.1] sm:leading-[1.08] text-[#0E0E0C] mb-4">
+            <h2 className="font-serif text-[30px] sm:text-[58px] font-normal tracking-[-0.02em] leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-4">
               {d.exp.title}
             </h2>
             <p className="text-[16px] sm:text-[18px] font-medium text-[#2E2E2A]">
@@ -380,7 +380,7 @@ export default function TimorHomePage() {
               </div>
               <div className="order-last md:order-first">
                 <span className="text-[10px] sm:text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">{d.exp.oceanTag}</span>
-                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.oceanTitle}</h3>
+                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.oceanTitle}</h3>
                 <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   {d.exp.oceanDesc}
                 </p>
@@ -398,7 +398,7 @@ export default function TimorHomePage() {
               </div>
               <div>
                 <span className="text-[10px] sm:text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">{d.exp.jacoTag}</span>
-                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.jacoTitle}</h3>
+                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.jacoTitle}</h3>
                 <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   {d.exp.jacoDesc}
                 </p>
@@ -409,7 +409,7 @@ export default function TimorHomePage() {
             <div className="p-5 sm:p-14 bg-[#FAFAF7] border border-[#0E0E0C]/15 shadow-sm">
               <div className="max-w-[760px] mb-8 sm:mb-12">
                 <span className="text-[10px] sm:text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">{d.exp.rockTag}</span>
-                <h3 className="font-serif text-[22px] sm:text-[32px] font-normal text-[#0E0E0C] mb-3 sm:mb-4">{d.exp.rockTitle}</h3>
+                <h3 className="font-serif text-[22px] sm:text-[32px] font-normal leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-3 sm:mb-4">{d.exp.rockTitle}</h3>
                 <p className="text-[14px] sm:text-[16px] text-[#6F6E66] leading-[1.75]">
                   {d.exp.rockDesc}
                 </p>
@@ -454,7 +454,7 @@ export default function TimorHomePage() {
               </div>
               <div className="order-last md:order-first">
                 <span className="text-[10px] sm:text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">{d.exp.discTag}</span>
-                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.discTitle}</h3>
+                <h3 className="font-serif text-[24px] sm:text-[34px] font-normal leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-4 sm:mb-5">{d.exp.discTitle}</h3>
                 <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
                   {d.exp.discDesc}
                 </p>
@@ -486,7 +486,7 @@ export default function TimorHomePage() {
             <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-4 sm:mb-6">
               {d.guide.tag}
             </span>
-            <h2 className="font-serif text-[30px] sm:text-[54px] font-normal tracking-[-0.02em] leading-[1.1] sm:leading-[1.08] text-[#0E0E0C] mb-5 sm:mb-6">
+            <h2 className="font-serif text-[30px] sm:text-[54px] font-normal tracking-[-0.02em] leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-5 sm:mb-6">
               {d.guide.title}
             </h2>
             <p className="text-[17px] sm:text-[22px] font-medium text-[#2E2E2A] leading-[1.5] mb-5 sm:mb-6">
@@ -519,7 +519,7 @@ export default function TimorHomePage() {
           <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-4">
             {d.inv.tag}
           </span>
-          <h2 className="font-serif text-[30px] sm:text-[54px] font-normal tracking-[-0.02em] text-[#0E0E0C] mb-4">
+          <h2 className="font-serif text-[30px] sm:text-[54px] font-normal tracking-[-0.02em] leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-4">
             {d.inv.title}
           </h2>
 
@@ -551,7 +551,7 @@ export default function TimorHomePage() {
           <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-4">
             {d.contact.tag}
           </span>
-          <h2 className="font-serif text-[30px] sm:text-[60px] font-normal tracking-[-0.02em] text-[#0E0E0C] mb-5 sm:mb-6">
+          <h2 className="font-serif text-[30px] sm:text-[60px] font-normal tracking-[-0.02em] leading-[1.25] sm:leading-[1.2] text-[#0E0E0C] mb-5 sm:mb-6">
             {d.contact.title}
           </h2>
           <p className="text-[16px] sm:text-[21px] text-[#3A3935] leading-[1.7] max-w-[760px] mx-auto mb-10 sm:mb-14 font-light">
