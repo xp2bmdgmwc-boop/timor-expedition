@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Manrope, Cinzel } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
+import CookieBanner from "../components/CookieBanner";
 
 const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
@@ -98,6 +99,7 @@ export default function RootLayout({
       </head>
       <body className="font-sans bg-[#FAFAF7] text-[#0E0E0C] selection:bg-[#C9501E] selection:text-white antialiased">
         {children}
+        <CookieBanner />
       </body>
     </html>
   );
