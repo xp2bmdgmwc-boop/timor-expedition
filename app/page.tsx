@@ -28,14 +28,14 @@ export default function TimorHomePage() {
 
       {/* Экран 1: Главный экран (Hero) со статичным атмосферным фоном */}
       <header className="relative min-h-[92vh] sm:min-h-screen flex items-center justify-center pt-40 pb-28 px-6 sm:px-12 overflow-hidden bg-[#0E0E0C] text-[#FAFAF7]">
-        {/* Статичное премиальное фоновое изображение */}
+        {/* Статичное премиальное фоновое изображение (IMG_3457) */}
         <div className="absolute inset-0 z-0 bg-[#0E0E0C]">
           <img
-            src="/images/timor_space_therapy.jpg"
+            src="/images/timor_hero_main.jpg"
             alt="Атмосферный пейзаж Восточного Тимора"
-            className="w-full h-full object-cover opacity-35 filter contrast-110 saturate-90"
+            className="w-full h-full object-cover opacity-40 filter contrast-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/40 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/50 to-transparent z-10" />
         </div>
 
         <div className="relative z-20 max-w-[1060px] mx-auto text-left w-full">
