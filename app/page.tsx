@@ -163,7 +163,7 @@ export default function TimorHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-14 items-center">
               <div className="relative h-[260px] sm:h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md order-first md:order-last">
                 <img
-                  src="/images/timor_ocean_boat.jpg"
+                  src="/images/timor_ocean_new.jpg"
                   alt="Лодка в лазурном океане Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
@@ -181,7 +181,7 @@ export default function TimorHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-14 items-center">
               <div className="relative h-[260px] sm:h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md order-first">
                 <img
-                  src="/images/timor_space_therapy.jpg"
+                  src="/images/timor_jaco_new.jpeg"
                   alt="Побережье и терапия пространством Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
@@ -313,7 +313,7 @@ export default function TimorHomePage() {
             04 / ИНВЕСТИЦИЯ
           </span>
           <h2 className="font-serif text-[30px] sm:text-[54px] font-normal tracking-[-0.02em] text-[#0E0E0C] mb-4">
-            ЧТО ЭТО СТОИТ.
+            ВКЛАД В СВОЁ СОСТОЯНИЕ.
           </h2>
 
           <div className="font-serif text-[36px] sm:text-[64px] font-normal tracking-[-0.02em] text-[#0E0E0C] leading-none my-5 sm:my-6">
@@ -324,7 +324,7 @@ export default function TimorHomePage() {
           </div>
 
           <p className="text-[15px] sm:text-[17px] text-[#3A3935] leading-[1.8] mb-8 sm:mb-10">
-            Это не плата за маршрут. Это инвестиция в ваш главный актив — ясность мышления и способность принимать точные решения. Участие — через личное интервью с Валерием.
+            Это не плата за маршрут. Это вклад в себя и полная гармонизация своего состояния. Участие — через личное интервью с Валерием.
           </p>
 
           <div className="p-5 sm:p-12 bg-transparent border border-[#C9501E]/40">
@@ -348,7 +348,7 @@ export default function TimorHomePage() {
             ПОГОВОРИМ ЛИЧНО.
           </h2>
           <p className="text-[16px] sm:text-[21px] text-[#3A3935] leading-[1.7] max-w-[760px] mx-auto mb-10 sm:mb-14 font-light">
-            Экспедиция — не массовый продукт. Я лично разговариваю с каждым, чтобы понять, подходит ли вам этот формат. Напишите — и мы найдём время для короткого разговора.
+            Экспедиция — не массовый продукт. Я лично разговариваю с каждым, чтобы понять, подходит ли вам этот формат. Напишите, и я расскажу вам подробности путешествия.
           </p>
 
           <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-4 sm:gap-5 max-w-[660px] mx-auto mb-12 sm:mb-16">

@@ -1,19 +1,19 @@
 import type { Metadata } from "next";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Manrope, Cinzel } from "next/font/google";
 import Script from "next/script";
 import "./globals.css";
 
-const inter = Inter({
+const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
   weight: ["300", "400", "500", "600", "700"],
-  variable: "--font-inter",
+  variable: "--font-inter", // Keep variable name so Tailwind config works
   display: "swap"
 });
 
-const playfair = Playfair_Display({
-  subsets: ["latin", "cyrillic"],
+const cinzel = Cinzel({
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
-  variable: "--font-serif",
+  variable: "--font-serif", // Keep variable name so Tailwind config works
   display: "swap"
 });
 
@@ -37,7 +37,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ru" className={`${inter.variable} ${playfair.variable} scroll-smooth`}>
+    <html lang="ru" className={`${manrope.variable} ${cinzel.variable} scroll-smooth`}>
       <head>
         {/* Гео-защита */}
         <script
