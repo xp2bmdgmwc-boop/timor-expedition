@@ -201,9 +201,9 @@ export default function TimorHomePage() {
         <div className="max-w-[1040px] mx-auto grid grid-cols-1 md:grid-cols-[380px_1fr] gap-14 items-center">
           <div className="relative h-[500px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
             <img
-              src="/images/IMG_3246.jpg"
+              src="/images/valery_latypov_portrait.jpg"
               alt="Валерий Латыпов"
-              className="w-full h-full object-cover grayscale contrast-115"
+              className="w-full h-full object-cover object-top"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C]/80 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6">
