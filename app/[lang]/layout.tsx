@@ -3,6 +3,7 @@ import { Manrope, Cinzel } from "next/font/google";
 import Script from "next/script";
 import "../globals.css";
 import CookieBanner from "../../components/CookieBanner";
+import Analytics from "../../components/Analytics";
 
 const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
@@ -57,47 +58,7 @@ export default function RootLayout({
             `,
           }}
         />
-
-        {/* Google Analytics (GA4) */}
-        <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-D5SSNPC94P"
-          strategy="afterInteractive"
-        />
-        <Script id="google-analytics" strategy="afterInteractive">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-D5SSNPC94P');
-          `}
-        </Script>
-
-        {/* Яндекс.Метрика */}
-        <Script id="yandex-metrika" strategy="afterInteractive">
-          {`
-            (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-            m[i].l=1*new Date();
-            for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-            k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-            (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-
-            ym(56052163, "init", {
-              clickmap:true,
-              trackLinks:true,
-              accurateTrackBounce:true,
-              webvisor:true
-            });
-          `}
-        </Script>
-        <noscript>
-          <div>
-            <img
-              src="https://mc.yandex.ru/watch/56052163"
-              style={{ position: "absolute", left: "-9999px" }}
-              alt=""
-            />
-          </div>
-        </noscript>
+        <Analytics />
       </head>
       <body className="font-sans bg-[#FAFAF7] text-[#0E0E0C] selection:bg-[#C9501E] selection:text-white antialiased">
         {children}
