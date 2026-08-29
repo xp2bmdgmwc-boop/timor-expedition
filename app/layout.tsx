@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
 import { Manrope, Cinzel } from "next/font/google";
-import Script from "next/script";
-import "../globals.css";
-import CookieBanner from "../../components/CookieBanner";
-import Analytics from "../../components/Analytics";
+import "./globals.css";
+import Analytics from "../components/Analytics";
 
 const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
@@ -35,13 +33,11 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-  params,
 }: Readonly<{
   children: React.ReactNode;
-  params: { lang: string };
 }>) {
   return (
-    <html lang={params.lang || "ru"} className={`${manrope.variable} ${cinzel.variable} scroll-smooth`}>
+    <html lang="ru" className={`${manrope.variable} ${cinzel.variable} scroll-smooth`}>
       <head>
         {/* Гео-защита */}
         <script
@@ -62,7 +58,6 @@ export default function RootLayout({
       </head>
       <body className="font-sans bg-[#FAFAF7] text-[#0E0E0C] selection:bg-[#C9501E] selection:text-white antialiased">
         {children}
-        <CookieBanner />
       </body>
     </html>
   );
