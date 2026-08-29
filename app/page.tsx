@@ -28,19 +28,19 @@ export default function TimorHomePage() {
 
       {/* Экран 1: Главный экран (Hero) */}
       <header className="relative min-h-[90vh] sm:min-h-screen flex items-center justify-center pt-36 pb-24 px-6 overflow-hidden bg-[#0E0E0C] text-[#FAFAF7]">
-        {/* Фоновое видео / Фото */}
+        {/* Главное фоновое видео (IMG_2389.MOV) */}
         <div className="absolute inset-0 z-0 bg-[#0E0E0C]">
           <video
             autoPlay
             muted
             loop
             playsInline
-            poster="/images/IMG_2240.jpg"
-            className="w-full h-full object-cover opacity-40 filter contrast-110 saturate-90"
+            poster="/images/timor_space_therapy.jpg"
+            className="w-full h-full object-cover opacity-45 filter contrast-105"
           >
             <source src="/videos/timor_hero.mp4" type="video/mp4" />
           </video>
-          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/60 to-transparent z-10" />
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0E0E0C] via-[#0E0E0C]/50 to-transparent z-10" />
         </div>
 
         <div className="relative z-20 max-w-[1040px] mx-auto text-left w-full">
@@ -139,7 +139,7 @@ export default function TimorHomePage() {
           </div>
 
           <div className="space-y-24">
-            {/* Пункт 1 */}
+            {/* Пункт 1: Океан */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#C9501E] block mb-3">01 / ОКЕАН</span>
@@ -150,32 +150,78 @@ export default function TimorHomePage() {
               </div>
               <div className="relative h-[380px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
                 <img
-                  src="/images/IMG_2240.jpg"
-                  alt="Океаническая бездна Восточного Тимора"
+                  src="/images/timor_ocean_boat.jpg"
+                  alt="Лодка в лазурном океане Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
 
-            {/* Пункт 2 */}
+            {/* Пункт 2: Терапия пространством */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center md:[direction:rtl]">
               <div className="md:[direction:ltr]">
                 <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#C9501E] block mb-3">02 / САКРАЛЬНОЕ</span>
                 <h3 className="text-[26px] sm:text-[30px] font-bold text-[#0E0E0C] mb-4">Терапия пространством.</h3>
                 <p className="text-[16px] text-[#3A3935] leading-[1.75]">
-                  Священный необитаемый остров Жако. Петроглифы, которым 40 000 лет. Прямой диалог со старейшинами. Вы попадаете в мир, живущий по другим законам.
+                  Священный необитаемый остров Жако. Дикие горные побережья. Вы попадаете в мир первозданной тишины, живущий по другим законам.
                 </p>
               </div>
               <div className="relative h-[380px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md md:[direction:ltr]">
                 <img
-                  src="/images/IMG_3124.jpg"
-                  alt="Священный остров Жако"
+                  src="/images/timor_space_therapy.jpg"
+                  alt="Побережье и терапия пространством Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
               </div>
             </div>
 
-            {/* Пункт 3 */}
+            {/* Блок Наскальной Живописи и Сакрального Наследия */}
+            <div className="p-8 sm:p-12 bg-[#FAFAF7] border border-[#0E0E0C]/15 shadow-sm">
+              <div className="max-w-[700px] mb-8">
+                <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#C9501E] block mb-2">40 000 ЛЕТ САДРАЛЬНОЙ ПАМЯТИ</span>
+                <h3 className="text-[24px] sm:text-[28px] font-bold text-[#0E0E0C] mb-3">Наскальная живопись и святилища Лулик.</h3>
+                <p className="text-[15px] text-[#6F6E66] leading-[1.7]">
+                  Древнейшие петроглифы региона, ритуальные камни и сакральные пещерные своды. Прямой диалог со старейшинами и доступ к местам силы, скрытым от туристических карт.
+                </p>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-5">
+                <div className="relative h-[280px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
+                  <img
+                    src="/images/timor_rock_art.jpg"
+                    alt="Наскальная живопись возрастом 40 000 лет"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/75 text-white text-[10px] font-semibold px-2 py-1 tracking-wider uppercase backdrop-blur-sm">
+                    Наскальные петроглифы
+                  </span>
+                </div>
+
+                <div className="relative h-[280px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
+                  <img
+                    src="/images/timor_sacred_cave.jpg"
+                    alt="Сакральное пещерное святилище"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/75 text-white text-[10px] font-semibold px-2 py-1 tracking-wider uppercase backdrop-blur-sm">
+                    Святилище Лулик
+                  </span>
+                </div>
+
+                <div className="relative h-[280px] border border-[#0E0E0C]/10 bg-[#E8E6DF]">
+                  <img
+                    src="/images/timor_sacred_stone.jpg"
+                    alt="Ритуальный артефакт"
+                    className="w-full h-full object-cover"
+                  />
+                  <span className="absolute bottom-2 left-2 right-2 bg-[#0E0E0C]/75 text-white text-[10px] font-semibold px-2 py-1 tracking-wider uppercase backdrop-blur-sm">
+                    Сакральный камень
+                  </span>
+                </div>
+              </div>
+            </div>
+
+            {/* Пункт 3: Полное отключение */}
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
               <div>
                 <span className="text-[11px] font-bold tracking-[0.2em] uppercase text-[#C9501E] block mb-3">03 / БЕЗЗАБОТНОСТЬ</span>
@@ -186,8 +232,8 @@ export default function TimorHomePage() {
               </div>
               <div className="relative h-[380px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
                 <img
-                  src="/images/IMG_2279.jpg"
-                  alt="Экспедиционный внедорожник на фоне горных хребтов Восточного Тимора"
+                  src="/images/timor_disconnection.jpg"
+                  alt="Первозданная дикая природа Восточного Тимора"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -266,7 +312,7 @@ export default function TimorHomePage() {
         </div>
       </section>
 
-      {/* Экран 6: Личный Контакт (Прямой доступ, острые углы) */}
+      {/* Экран 6: Личный Контакт */}
       <footer id="contact" className="py-28 md:py-36 px-6 bg-[#FAFAF7]">
         <div className="max-w-[920px] mx-auto text-center">
           <span className="inline-block text-[11px] font-bold tracking-[0.22em] uppercase text-[#C9501E] mb-4">
