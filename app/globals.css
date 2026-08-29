@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 :root {
-  --bg: #0A0A08;
-  --bg-surface: #121210;
-  --ink: #FAFAF7;
+  --bg: #FAFAF7;
+  --bg-alt: #F2F0EA;
+  --ink: #0E0E0C;
+  --ink-soft: #2E2E2A;
+  --ink-mute: #6F6E66;
+  --line: rgba(14, 14, 12, 0.1);
+  --line-strong: rgba(14, 14, 12, 0.2);
   --accent: #C9501E;
 }
 
@@ -17,7 +21,11 @@ html {
 
 body {
   background-color: var(--bg);
-  color: #A6A59D;
+  color: var(--ink-soft);
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
+}
+
+* {
+  border-radius: 0px !important;
 }
