@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0A0A08;
+  --bg-surface: #121210;
+  --ink: #FAFAF7;
+  --accent: #C9501E;
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  background-color: var(--bg);
+  color: #A6A59D;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
