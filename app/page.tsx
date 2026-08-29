@@ -69,7 +69,7 @@ const t = {
       p1: "Валерий Латыпов. 25 лет рядом с первыми лицами списков Форбс и людьми, создающими мировую культуру.",
       p2: "Он не гид. Художник, визионер, человек, говорящий на индонезийском языке. Общается со старейшинами напрямую и открывает двери, которых нет в путеводителях.",
       p3: "Он понимает, что такое настоящая усталость от ответственности. Это разговор равного с равным — без необходимости что-либо объяснять.",
-      link: "Смотреть полный визуальный капитал: valerylatypov.com",
+      link: "Познакомиться с философией Валерия: valerylatypov.com",
     },
     inv: {
       tag: "04 / ИНВЕСТИЦИЯ",
@@ -153,7 +153,7 @@ const t = {
       p1: "Valery Latypov. 25 years alongside Forbes list leaders and the individuals who shape global culture.",
       p2: "He is not a tour guide. He is an artist, a visionary, and an Indonesian speaker. He communicates directly with village elders and opens doors absent from any guidebook.",
       p3: "He inherently understands the true exhaustion of responsibility. This is a conversation between equals — without the need to explain anything.",
-      link: "View the complete visual capital: valerylatypov.com",
+      link: "Discover more about Valery's philosophy: valerylatypov.com",
     },
     inv: {
       tag: "04 / INVESTMENT",
