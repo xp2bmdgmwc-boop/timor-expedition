@@ -22,7 +22,7 @@ export default function TimorHomePage() {
           href="#contact"
           className="bg-[#0E0E0C] text-[#FAFAF7] hover:bg-[#C9501E] text-[11px] font-bold tracking-[0.2em] uppercase px-7 py-3 transition-all duration-300 shadow-sm"
         >
-          Связаться
+          Написать Валерию
         </a>
       </nav>
 
@@ -47,9 +47,9 @@ export default function TimorHomePage() {
             <span className="italic font-light">ТОЧКА ОБНУЛЕНИЯ.</span>
           </h1>
           <p className="text-[18px] sm:text-[22px] text-[#D0CECB] font-light leading-[1.65] max-w-[800px] mb-14 tracking-[-0.01em]">
-            Экзистенциальный ретрит на краю географии для руководителей высшего звена и основателей бизнеса, перегруженных операционной матрицей. 
-            Последний нетронутый фронтир Азии, где нет массового туризма, лишних глаз и социального шума. 
-            Восемь дней, чтобы обнулить сенсорную перегрузку и вернуть предельную резкость мышления.
+            Восемь дней на краю земли для тех, кто управляет большим и устал от этого по-настоящему. 
+            Последний нетронутый фронтир Азии — без массового туризма, без лишних глаз, без социального шума. 
+            Место, где нервная система наконец замолкает и возвращается ясность.
           </p>
 
           <div className="flex flex-wrap items-center gap-5">
@@ -57,7 +57,7 @@ export default function TimorHomePage() {
               href="#contact"
               className="inline-flex items-center justify-center px-10 py-4 bg-[#C9501E] hover:bg-[#B24316] text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300 shadow-xl"
             >
-              Инициировать экспедицию
+              Начать разговор
             </a>
             <a
               href={whatsappUrl}
@@ -65,7 +65,7 @@ export default function TimorHomePage() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center px-10 py-4 bg-[#1A1A18] hover:bg-[#C9501E] border border-white/20 text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300"
             >
-              Связаться в WhatsApp
+              Написать в WhatsApp
             </a>
           </div>
 
@@ -93,13 +93,13 @@ export default function TimorHomePage() {
             01 / ИСХОДНАЯ ТОЧКА
           </span>
           <h2 className="font-serif text-[38px] sm:text-[58px] font-normal tracking-[-0.02em] leading-[1.08] text-[#0E0E0C] mb-8">
-            ИЛЛЮЗИЯ КОНТРОЛЯ.
+            ВЫ ДАВНО НЕ ОТДЫХАЛИ ПО-НАСТОЯЩЕМУ.
           </h2>
           <p className="text-[21px] sm:text-[28px] text-[#2E2E2A] font-light leading-[1.5] tracking-[-0.015em] mb-8 max-w-[920px]">
-            Вы управляете масштабными системами, но цена этого — непрерывное напряжение 24/7. Пятизвездочный комфорт больше не восстанавливает: фоновый шум и ответственность следуют за вами повсюду.
+            Пятизвёздочные отели перестали работать. Мальдивы — фон для рабочих звонков. Бали — очередная декорация, в которой вы всё равно открываете ноутбук к обеду.
           </p>
           <p className="text-[17px] sm:text-[19px] text-[#6F6E66] leading-[1.8] max-w-[860px]">
-            Вам нужен не очередной отпуск, а полное изъятие из привычного контекста, где невозможно оставаться заложником непрерывного контроля.
+            Вам нужно не место покрасивее, а полное изъятие из привычного контекста — среда, в которой физически невозможно оставаться на связи и контролировать всё.
           </p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12 pt-16 mt-20 border-t border-[#0E0E0C]/10">
@@ -135,10 +135,10 @@ export default function TimorHomePage() {
             </span>
             <div>
               <h3 className="font-serif text-[24px] sm:text-[32px] font-normal leading-[1.35] text-[#0E0E0C] mb-4">
-                Горизонт, где взгляд не упирается в чужие стены.
+                Горизонт, где взгляд отдыхает и наполняется заново.
               </h3>
               <p className="text-[16px] sm:text-[18px] text-[#6F6E66] leading-[1.75] font-light max-w-[65ch]">
-                Масштаб, возвращающий истинный размер вещам и освобождающий ум от операционного шума.
+                Масштаб, который невозможно сфотографировать. Здесь возвращается ощущение собственного размера — и тишина, в которой наконец слышно себя.
               </p>
             </div>
           </div>
@@ -165,9 +165,9 @@ export default function TimorHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
               <div>
                 <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">ОКЕАН · МИГРАЦИЯ КИТОВ</span>
-                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Океаническая бездна.</h3>
+                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Открытый океан.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
-                  Выход на скоростном катере в пролив глубиной 3000 метров. Наблюдение за карликовыми синими китами. Прямой контакт с природой, от которого замирает время.
+                  Скоростной катер в пролив глубиной три километра. Карликовые синие киты проходят в десятках метров. Вода такого цвета, что забываешь, зачем доставал телефон.
                 </p>
               </div>
               <div className="relative h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
@@ -183,9 +183,9 @@ export default function TimorHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center md:[direction:rtl]">
               <div className="md:[direction:ltr]">
                 <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">САКРАЛЬНЫЙ ОСТРОВ ЖАКО</span>
-                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Терапия пространством.</h3>
+                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Остров, где нет людей.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
-                  Священный необитаемый остров Жако. Дикие горные побережья. Вы попадаете в мир первозданной тишины, живущий по другим законам.
+                  Жако — священный необитаемый остров. Дикие горные побережья, вода до горизонта и ощущение, что ты первый человек, который здесь оказался.
                 </p>
               </div>
               <div className="relative h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md md:[direction:ltr]">
@@ -201,9 +201,9 @@ export default function TimorHomePage() {
             <div className="p-8 sm:p-14 bg-[#FAFAF7] border border-[#0E0E0C]/15 shadow-sm">
               <div className="max-w-[760px] mb-12">
                 <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">40 000 ЛЕТ САКРАЛЬНОЙ ПАМЯТИ</span>
-                <h3 className="font-serif text-[26px] sm:text-[32px] font-normal text-[#0E0E0C] mb-4">Наскальная живопись и святилища Лулик.</h3>
+                <h3 className="font-serif text-[26px] sm:text-[32px] font-normal text-[#0E0E0C] mb-4">Места, куда не водят туристов.</h3>
                 <p className="text-[15px] sm:text-[16px] text-[#6F6E66] leading-[1.75]">
-                  Древнейшие петроглифы региона, ритуальные камни и сакральные пещерные своды. Прямой диалог со старейшинами и доступ к местам силы, скрытым от туристических карт.
+                  Петроглифы, которым сорок тысяч лет. Пещерные святилища, куда пускают только со старейшинами. Ритуальные камни, которые до сих пор живут. Валерий знает этих людей лично — и они открывают двери, которых нет на картах.
                 </p>
               </div>
 
@@ -253,9 +253,9 @@ export default function TimorHomePage() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-14 items-center">
               <div>
                 <span className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] block mb-3">ПЕРВОЗДАННАЯ ПРИРОДА · ПОЛНОЕ ОТКЛЮЧЕНИЕ</span>
-                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Полное отключение.</h3>
+                <h3 className="font-serif text-[28px] sm:text-[34px] font-normal text-[#0E0E0C] mb-5">Вы ни о чём не думаете.</h3>
                 <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
-                  С момента прилета мы забираем на себя всё: от быта и безопасности до дипломатических доступов. Ваша единственная задача — выключить связь и позволить первозданному масштабу восстановить нервную систему.
+                  С момента прилёта мы забираем на себя всё — от быта до дипломатических доступов. Ваша единственная задача: отпустить контроль и дать нервной системе наконец выдохнуть.
                 </p>
               </div>
               <div className="relative h-[400px] border border-[#0E0E0C]/15 bg-[#E8E6DF] shadow-md">
@@ -293,16 +293,16 @@ export default function TimorHomePage() {
               03 / ПРОВОДНИК
             </span>
             <h2 className="font-serif text-[38px] sm:text-[54px] font-normal tracking-[-0.02em] leading-[1.08] text-[#0E0E0C] mb-6">
-              АРХИТЕКТОР СМЫСЛОВ.
+              ВАШ ПРОВОДНИК.
             </h2>
             <p className="text-[20px] sm:text-[22px] font-medium text-[#2E2E2A] leading-[1.5] mb-6">
-              Валерий Латыпов. 25 лет работы с первыми лицами списков Форбс и мировыми деятелями культуры.
+              Валерий Латыпов. 25 лет рядом с первыми лицами списков Форбс и людьми, создающими мировую культуру.
             </p>
             <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8] mb-5">
-              Валерий — не гид. Он художник, визионер и человек, говорящий на индонезийском языке. Он общается со старейшинами напрямую, открывая двери, которых не существует в путеводителях.
+              Он не гид. Художник, визионер, человек, говорящий на индонезийском языке. Общается со старейшинами напрямую и открывает двери, которых нет в путеводителях.
             </p>
             <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8]">
-              Он понимает цену успеха и перегрузки. Это диалог равного с равным без необходимости что-либо доказывать.
+              Он понимает, что такое настоящая усталость от ответственности. Это разговор равного с равным — без необходимости что-либо объяснять.
             </p>
           </div>
         </div>
@@ -315,7 +315,7 @@ export default function TimorHomePage() {
             04 / ИНВЕСТИЦИЯ
           </span>
           <h2 className="font-serif text-[38px] sm:text-[54px] font-normal tracking-[-0.02em] text-[#0E0E0C] mb-4">
-            СТОИМОСТЬ ЯСНОСТИ.
+            ЧТО ЭТО СТОИТ.
           </h2>
 
           <div className="font-serif text-[48px] sm:text-[64px] font-normal tracking-[-0.02em] text-[#0E0E0C] leading-none my-6">
@@ -326,15 +326,15 @@ export default function TimorHomePage() {
           </div>
 
           <p className="text-[16px] sm:text-[17px] text-[#3A3935] leading-[1.8] mb-10">
-            Это не плата за маршрут — это инвестиция в ваш ключевой актив: точность управленческих решений. Закрытый персональный набор через короткое интервью лично с Валерием.
+            Это не плата за маршрут. Это инвестиция в ваш главный актив — ясность мышления и способность принимать точные решения. Участие — через личное интервью с Валерием.
           </p>
 
           <div className="p-8 sm:p-12 bg-transparent border border-[#C9501E]/40">
             <h4 className="text-[11px] font-semibold tracking-[0.28em] uppercase text-[#C9501E] mb-3">
-              Квалификационный критерий
+              Кого мы не берём
             </h4>
             <p className="text-[15px] sm:text-[16px] text-[#2E2E2A] leading-[1.75] font-light max-w-[65ch]">
-              Мы отказываем при клинической депрессии: экспедиция создана для здоровых, но предельно уставших лидеров, готовых к полному отключению связи.
+              Мы отказываем при клинической депрессии. Экспедиция — для здоровых, но предельно уставших людей, готовых на восемь дней полностью отключиться от связи.
             </p>
           </div>
         </div>
@@ -347,10 +347,10 @@ export default function TimorHomePage() {
             05 / КОНТАКТ
           </span>
           <h2 className="font-serif text-[38px] sm:text-[60px] font-normal tracking-[-0.02em] text-[#0E0E0C] mb-6">
-            ЛИЧНЫЙ КОНТАКТ.
+            ПОГОВОРИМ ЛИЧНО.
           </h2>
           <p className="text-[18px] sm:text-[21px] text-[#3A3935] leading-[1.7] max-w-[760px] mx-auto mb-14 font-light">
-            Формат экспедиции не подразумевает потоковых продаж. Я лично отбираю участников, чтобы гарантировать правильную динамику и безопасность для вашей психики. Свяжитесь со мной напрямую для согласования короткого интервью.
+            Экспедиция — не массовый продукт. Я лично разговариваю с каждым, чтобы понять, подходит ли вам этот формат. Напишите — и мы найдём время для короткого разговора.
           </p>
 
           {/* Кнопки прямого доступа: медная и темная монохромная */}
@@ -361,7 +361,7 @@ export default function TimorHomePage() {
               rel="noopener noreferrer"
               className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-5 bg-[#C9501E] hover:bg-[#B24316] text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300 shadow-xl"
             >
-              Связаться в WhatsApp
+              Написать в WhatsApp
             </a>
 
             <a
