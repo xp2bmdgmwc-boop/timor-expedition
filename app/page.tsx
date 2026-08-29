@@ -240,7 +240,7 @@ export default function TimorHomePage() {
           <span className="inline-block text-[10px] sm:text-[12px] font-semibold tracking-[0.3em] uppercase text-[#E29D7D] mb-4 sm:mb-6">
             {d.hero.format}
           </span>
-          <h1 className="font-serif text-[36px] sm:text-[72px] md:text-[92px] font-normal leading-[1.25] sm:leading-[1.2] tracking-[-0.02em] text-white mb-6 sm:mb-8">
+          <h1 className="font-serif text-[34px] sm:text-[52px] md:text-[64px] lg:text-[76px] font-normal leading-[1.25] sm:leading-[1.2] tracking-[-0.02em] text-white mb-6 sm:mb-8">
             {d.hero.title1}<br />
             <span className="italic font-light">{d.hero.title2}</span>
           </h1>
