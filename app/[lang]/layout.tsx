@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Manrope, Cinzel } from "next/font/google";
 import Script from "next/script";
-import "./globals.css";
-import CookieBanner from "../components/CookieBanner";
+import "../globals.css";
+import CookieBanner from "../../components/CookieBanner";
 
 const manrope = Manrope({
   subsets: ["latin", "cyrillic"],
@@ -19,12 +19,12 @@ const cinzel = Cinzel({
 });
 
 export const metadata: Metadata = {
-  title: "ВОСТОЧНЫЙ ТИМОР · ТОЧКА ОБНУЛЕНИЯ · Экспедиции Валерия Латыпова",
-  description: "Приватная авторская экспедиция в Восточный Тимор. Камерный формат: 2-4 гостя. Архитектура безупречного комфорта и экзистенциальная перезагрузка для лидеров.",
+  title: "Восточный Тимор. Последняя Тишина | Валерий Латыпов",
+  description: "Закрытый экзистенциальный ретрит на краю географии для руководителей высшего звена и фаундеров. Камерный формат, полная конфиденциальность.",
   metadataBase: new URL("https://timor.valerylatypov.com"),
   openGraph: {
-    title: "ВОСТОЧНЫЙ ТИМОР · ТОЧКА ОБНУЛЕНИЯ",
-    description: "Приватная авторская экспедиция в Восточный Тимор. Камерный формат: 2-4 гостя.",
+    title: "Восточный Тимор. Последняя Тишина | Валерий Латыпов",
+    description: "Закрытый экзистенциальный ретрит на краю географии для руководителей высшего звена и фаундеров. Камерный формат, полная конфиденциальность.",
     url: "https://timor.valerylatypov.com",
     siteName: "Валерий Латыпов · Экспедиции",
     locale: "ru_RU",
@@ -34,11 +34,13 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: { lang: string };
 }>) {
   return (
-    <html lang="ru" className={`${manrope.variable} ${cinzel.variable} scroll-smooth`}>
+    <html lang={params.lang || "ru"} className={`${manrope.variable} ${cinzel.variable} scroll-smooth`}>
       <head>
         {/* Гео-защита */}
         <script

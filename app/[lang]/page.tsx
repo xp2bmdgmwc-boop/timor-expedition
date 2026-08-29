@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function TimorHomePage() {
+export default function TimorHomePage({ params }: { params: { lang: string } }) {
   const whatsappUrl = "https://wa.me/79852246789?text=" + encodeURIComponent("Здравствуйте, Валерий. Хочу узнать об экспедиции в Восточный Тимор.");
 
   return (
@@ -395,9 +395,9 @@ export default function TimorHomePage() {
             </div>
             
             <div className="flex items-center text-[10px] sm:text-[11px] font-bold tracking-[0.1em] uppercase">
-              <span className="text-[#0E0E0C]">RU</span>
+              <a href="/ru" className={params.lang === 'en' ? "text-[#6F6E66] hover:text-[#0E0E0C] transition-colors" : "text-[#0E0E0C]"}>RU</a>
               <span className="mx-2 text-[#0E0E0C]/30">|</span>
-              <a href="#" className="text-[#6F6E66] hover:text-[#0E0E0C] transition-colors">EN</a>
+              <a href="/en" className={params.lang === 'en' ? "text-[#0E0E0C]" : "text-[#6F6E66] hover:text-[#0E0E0C] transition-colors"}>EN</a>
             </div>
           </div>
         </div>
