@@ -11,7 +11,7 @@ const t = {
       experience: "Опыт",
       guide: "Проводник",
       investment: "Инвестиция",
-      write: "Написать",
+      write: "Частная консультация",
     },
     hero: {
       format: "КАМЕРНЫЙ ФОРМАТ: 2–4 ГОСТЯ",
@@ -95,7 +95,7 @@ const t = {
       experience: "Experience",
       guide: "The Guide",
       investment: "Investment",
-      write: "Contact",
+      write: "Private Consultation",
     },
     hero: {
       format: "INTIMATE FORMAT: 2–4 GUESTS",
@@ -217,7 +217,7 @@ export default function TimorHomePage() {
 
           <a
             href="#contact"
-            className="bg-[#0E0E0C] text-[#FAFAF7] hover:bg-[#C9501E] text-[10px] sm:text-[11px] font-bold tracking-[0.18em] sm:tracking-[0.2em] uppercase px-4 sm:px-7 py-2.5 sm:py-3 transition-all duration-300 shadow-sm whitespace-nowrap"
+            className="bg-[#0E0E0C] text-[#FAFAF7] hover:bg-[#C9501E] text-[9.5px] sm:text-[11px] font-bold tracking-[0.12em] sm:tracking-[0.2em] uppercase px-3.5 sm:px-7 py-2 sm:py-3 transition-all duration-300 shadow-sm whitespace-nowrap"
           >
             {d.nav.write}
           </a>
