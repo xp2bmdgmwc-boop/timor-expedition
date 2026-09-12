@@ -6,7 +6,7 @@ import CookieBanner from "../components/CookieBanner"; // We will move CookieBan
 const t = {
   ru: {
     nav: {
-      brand: "ЛАТЫПОВ · ЭКСПЕДИЦИИ",
+      brand: "АВТОРСКИЕ ЭКСПЕДИЦИИ",
       point: "Исходная точка",
       experience: "Опыт",
       guide: "Проводник",
