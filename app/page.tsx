@@ -250,16 +250,10 @@ export default function TimorHomePage() {
 
           <div className="flex flex-col sm:flex-row sm:flex-wrap items-stretch sm:items-center gap-3 sm:gap-5">
             <a
-              href="#contact"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 bg-[#C9501E] hover:bg-[#B24316] text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300 shadow-xl"
-            >
-              {d.hero.cta}
-            </a>
-            <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 bg-[#1A1A18] hover:bg-[#C9501E] border border-white/20 text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300"
+              className="w-full sm:w-auto inline-flex items-center justify-center px-10 py-4 bg-[#C9501E] hover:bg-[#B24316] text-white text-[11px] font-bold tracking-[0.2em] uppercase transition-all duration-300 shadow-xl"
             >
               {d.hero.wa}
             </a>
