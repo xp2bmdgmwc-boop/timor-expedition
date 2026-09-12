@@ -15,8 +15,8 @@ const t = {
     },
     hero: {
       format: "КАМЕРНЫЙ ФОРМАТ: 2–4 ГОСТЯ",
-      title1: "ВОСТОЧНЫЙ ТИМОР.",
-      title2: "ТОЧКА ОБНУЛЕНИЯ.",
+      title1: "ВОСТОЧНЫЙ ТИМОР",
+      title2: "ТОЧКА ОБНУЛЕНИЯ",
       desc: "Восемь дней на краю земли для тех, кто управляет большим и устал от этого по-настоящему. Последний нетронутый фронтир Азии — без массового туризма, без лишних глаз, без социального шума. Место, где нервная система наконец замолкает и возвращается ясность.",
       cta: "Начать разговор",
       wa: "Написать в WhatsApp",
@@ -99,8 +99,8 @@ const t = {
     },
     hero: {
       format: "INTIMATE FORMAT: 2–4 GUESTS",
-      title1: "EAST TIMOR.",
-      title2: "THE ZERO POINT.",
+      title1: "EAST TIMOR",
+      title2: "THE ZERO POINT",
       desc: "Eight days at the edge of the world for those who manage the immense and are truly exhausted by it. Asia’s last untouched frontier — no mass tourism, no prying eyes, no social noise. A place where the nervous system finally falls silent and clarity returns.",
       cta: "Start a conversation",
       wa: "WhatsApp Us",
